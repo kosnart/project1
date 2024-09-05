@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(228, 228, 228);
+    font-family: 'roboto',sans-serif;
+    overflow-y: scroll;
+   
+}
+#sec1{
+    height: 1500px;
+}
+#sec2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.view{
+    margin:10px;
+    float: left;
+    border: 10px solid black;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+    cursor: default;
+    height: 250px;
+    width: 350px;
+}
+.navbar {
+    background-color:white;
+    overflow: hidden;
+}
+.regform{
+    margin-left: 35%;
+}
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color:rgb(255, 42, 42);
+}
+.container{
+    background: rgb(228, 228, 228);
+    width: 1700px;
+    
+}
+
+.ul li{
+    display: inline;
+}
+.ul{
+    margin-left: 40%;
+    margin-top: 15px;
+}
+.navbar{
+    width: 100%;
+    height: 96px;
+    background-color: white;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+
+}
+#sec1,#sec2,#sec3{
+    height: 100vh;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;   
+    }
+ form {
+     
+        background-color: #f1f1f1;
+        padding: 30px;
+        width: 80%;
+        max-width: 500px;
+        border-radius: 5px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #212121;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        }
+        .otpr:hover{
+            background-color: black;
+            color:white;
+
+        }
+
+
+
+.container {
+    display: flex;
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    justify-content: space-between; /* Равномерное распределение карточек */
+    flex-wrap: nowrap; /* Запрещаем перенос карточек на следующий ряд */
+    overflow-x: hidden; /* Позволяем горизонтальную прокрутку при необходимости */
+    padding: 20px; /* Внутренний отступ контейнера */
+}
+
+.card {
+    background: white;
+    width: 200px; /* Ширина карточки */
+    margin: 10px; /* Отступы между карточками */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта объемности */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.button {
+    background-color: slategray; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругление углов кнопки */
+    padding: 10px 15px; /* Внутренние отступы кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный эффект изменения фона */
+}
+
+    .button:hover {
+        background-color: #218838; /* Цвет кнопки при наведении */
+    }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.footer {
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 10px; /* Уменьшенная высота футера */
+    font-size: 16px; /* Уменьшенный размер шрифта */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Распределение контента по обеим сторонам */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+    flex: 1; /* Равное распределение пространства */
+    text-align: center; /* Центрирование текста */
+}
